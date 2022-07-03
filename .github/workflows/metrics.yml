@@ -28,7 +28,7 @@ jobs:
           user: moxak
           template: classic
           base: header, activity, repositories, metadata
-          config_display: large
+          config_display: column
           config_octicon: yes
           config_timezone: Asia/Tokyo
           plugin_followup: yes
