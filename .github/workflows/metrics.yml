@@ -27,10 +27,10 @@ jobs:
           # Options
           user: moxak
           template: classic
-          base: header, repositories, metadata
-          config_display: columns
+          base: header, activity, repositories, metadata
+          config_display: large
           config_octicon: yes
-          config_timezone: Etc/GMT-9
+          config_timezone: Asia/Tokyo
           plugin_followup: yes
           plugin_followup_archived: yes
           plugin_followup_indepth: yes
@@ -48,6 +48,3 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_tweets: yes
-          plugin_tweets_limit: 3
-          plugin_tweets_user: moxak_
